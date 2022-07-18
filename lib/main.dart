@@ -112,7 +112,7 @@ class _HomeState extends State<Home> {
                       child: ElevatedButton(
                         onPressed: (){
                           if(_formKey.currentState!.validate()){
-                            calcularIMC;
+                            calcularIMC();
                           }
                         },
                         child: Text(
